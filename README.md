@@ -1,6 +1,7 @@
 # VKSphere
 
-Application, written in Typescript, to count like activities for your VK friends' photos and wall posts
+Application, written in Typescript and three.js.
+It creates visual model of like activities for your VK friends' photos and wall posts
 
 ### Installation
 
