@@ -1,0 +1,30 @@
+.card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+    background: $color-text-icons;
+    @include paper(3px, 1);
+
+    &__avatar {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 16px auto
+    }
+
+    &__name {
+        display: block;
+        font-size: 14px;
+        font-family: inherit;
+        color: $color-text-primary;
+        text-align: center;
+        word-wrap: break-word;
+        word-spacing: 84px;
+        margin: -6px 8px 16px;
+    }
+}

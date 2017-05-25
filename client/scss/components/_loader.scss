@@ -1,0 +1,42 @@
+.loader {
+    display: block;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: calc(50% + 9px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    z-index: 666;
+    @include paper(0, 0);
+
+    &__spinner {
+        display: block;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        border: $color-accent 4px solid;
+        border-right-color: transparent;
+        animation: spin 0.9s infinite linear reverse;
+        margin: 0 auto 8px;
+    }
+
+    &__label {
+        display: block;
+        font-size: 12px;
+        font-family: Roboto, sans-serif;
+        color: $color-text-secondary;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}

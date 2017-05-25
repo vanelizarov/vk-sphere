@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,shrink-to-fit=no,user-scalable=no')
+        link(href='https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic,cyrillic-ext' rel='stylesheet')
+        link(href='app.css' rel='stylesheet')
+        title VKSphere
+    body
+        div.loader.hidden
+            div.loader__spinner
+            div.loader__label loading
+        div.card.hidden
+            img.card__avatar
+            div.card__name
+        button.btn.btn_bottom sign in
+        button.btn.btn_top sign out
+        script(src='app.js')
