@@ -1,7 +1,7 @@
 # VKSphere
 
-Application, written in Typescript and three.js.
-It creates visual model of like activities for your VK friends' photos and wall posts
+Web application written in Typescript and three.js.
+Creates visual model of like activities for your VK friends' photos and wall posts
 
 ### Installation
 
